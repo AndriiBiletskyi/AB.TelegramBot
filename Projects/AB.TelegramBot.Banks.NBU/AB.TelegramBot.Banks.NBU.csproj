@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AB.TelegramBot.Bank.Abstraction\AB.TelegramBot.Bank.Abstraction.csproj" />
+    <ProjectReference Include="..\AB.TelegramBot.DateTimes\AB.TelegramBot.DateTimes.csproj" />
+  </ItemGroup>
+
+</Project>
